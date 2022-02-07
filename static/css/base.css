@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 800px;
+  margin: auto;
+}
+
+header .logo {
+  font-size: 4em;
+  font-family: sans-serif;
+  margin-top: 0.5em;
+  color: blueviolet;
+}
+
+header .motto {
+  font-size: 0.5em;
+  font-family: sans-serif;
+  color: blueviolet;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1em;
+}
+
+footer .copyright {
+  font-size: 0.5em;
+}
