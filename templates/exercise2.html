@@ -2,5 +2,9 @@
   <head>
   </head>
   <body>
+    {% for member in band %}
+      <img src={{member.picture}} alt={{member.name}}>
+      <p>this is {{member.name}} which {{member.role}}</p>
+    {% endfor %}
   </body>
 </html>

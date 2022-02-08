@@ -19,6 +19,7 @@ app = Flask("Exercise 2")
 @app.route("/")
 def index():
     return render_template(
-        "exercise2.html")
+        "exercise2.html",
+        band = beatles)
 
 app.run()

@@ -1,3 +1,37 @@
+
+class Shape:
+    def __init__(self):
+        pass
+
+    def calculate_area(self):
+        pass
+
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def calculate_area(self):
+        return 33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Lamp:
     def __init__(self, wattage, color, luminosity, form):
         self.wattage = wattage
